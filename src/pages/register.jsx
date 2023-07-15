@@ -38,7 +38,7 @@ const Register = ({show}) => {
 
 
   return (
-    <Box display={'flex'} p={{base: '20px' , md: '0'}} justifyContent={'center'} alignItems={'center'} minHeight={'70vh'} w={'100%'}>
+    <Box display={'flex'} p={{base: '20px' , md: '0'}} justifyContent={'center'} alignItems={'center'} minHeight={{base: '50vh' , md: '70vh'}} w={'100%'}>
         <Box height={'400px'} width={'600px'} rounded={'20px'} bg={show ?  '#050E17' : 'white'} p={'20px'} border={'1px'} borderColor='#2D2D2D'>
             <Flex flexDirection={'column'} justifyContent={'space-between'} gap={'40px'}>
                 <Center>
