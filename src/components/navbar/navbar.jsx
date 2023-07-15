@@ -59,13 +59,13 @@ const Navbar = ({show , setShow , handleShow , handleClose}) => {
                   <HamburgerIcon />
                 </Button>
               ))}
-              <Drawer  placement={placement} onClose={onClose} isOpen={isOpen} size={size}>
+              <Drawer w={'100%'} placement={placement} onClose={onClose} isOpen={isOpen} size={size}>
                 <DrawerOverlay />
-                <DrawerContent bg={show ? '#0A1624' : 'white'}color={show ? 'white' : 'black'}>
+                <DrawerContent bg={show ? '#0A1624' : 'white'}color={show ? 'white' : 'black'} w={'100%'}>
                   <DrawerCloseButton />
-                  <DrawerHeader>{`${size} drawer contents`}</DrawerHeader>
+                  <DrawerHeader>{''}</DrawerHeader>
                   <DrawerBody>
-                    <LeftContent />
+                    <LeftContent w={'100%'} />
                   </DrawerBody>
                 </DrawerContent>
               </Drawer>

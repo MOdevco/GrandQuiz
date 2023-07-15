@@ -92,7 +92,7 @@ const Exel = ({show}) => {
             <Box>
                 <Heading color={show ? "white" : "black"}>Exel dasturidan testlar</Heading>
             </Box>
-            <Box border={'1px'} borderColor={'#2D2D2D'} rounded={'20px'} pt={'60px'}  px={'50px'} bg={show ? '#233242' : 'white'} display={'flex'} flexDirection={'column'} justifyContent={'flex-start'}  height={{base: '80vh' , md: '60vh'}}>
+            <Box border={'1px'} borderColor={'#2D2D2D'} rounded={'20px'} pt={'60px'}  px={'50px'} bg={show ? '#233242' : 'white'} display={'flex'} flexDirection={'column'} justifyContent={'flex-start'}  height={{base: '100%' , md: '60vh'}}>
                 {
                     showScore ? (
                         <Box display={'flex'} justifyContent={'center'} alignItems={'flex-start'} gap={4} flexDirection={'column'} minHeight={'50vh'}>
@@ -105,7 +105,7 @@ const Exel = ({show}) => {
                         <Box gap={'20px'} display={'flex'} flexDirection={'column'}>
                             <Text fontSize={'20px'} color={'red'}>Eslatib o’tamiz barcha savollaga anniq javob berishga harakat qiling!</Text>
                             <Heading fontSize={'30px'} color={show ? "white" : 'black'}>Savol: {currentQuestion + 1} / {allQuiz.length}</Heading>
-                            <Heading color={show ? "white" : 'black'} fontSize={{base: '30px' ,md: '40px'}}>
+                            <Heading color={show ? "white" : 'black'} fontSize={{base: '20px' ,md: '40px'}}>
                                 {allQuiz[currentQuestion].text}
                             </Heading>
                             <Box display={'flex'} flexDirection={'column'} gap={'20px'}>

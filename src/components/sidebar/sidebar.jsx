@@ -37,7 +37,7 @@ const Sidebar = ({show}) => {
                         <Lessons show={show} name={"Inglis Tili Ielts Testlari"} />
                     </Link>
                     
-                    <Accordion allowMultiple rounded={'10px'} py={'5px'}  bg={show ? '#0A1624' : 'gray.600'}>
+                    <Accordion allowMultiple rounded={'10px'} py={'5px'} color={'white'}  bg={show ? '#0A1624' : 'gray.600'}>
                         <AccordionItem border={'none'} >
                         {({ isExpanded }) => (
                             <>
@@ -56,16 +56,16 @@ const Sidebar = ({show}) => {
                             </h2>
                             <AccordionPanel pb={4} display={'flex'} flexDirection='column' gap={4}>
                                 <Link to={'/html'}>
-                                    <Button bg={'transparent'} _hover={{bg: ''}} width={'100%'}>Html Savollari</Button>
+                                    <Button color={'white'} bg={'transparent'} _hover={{bg: ''}} width={'100%'}>Html Savollari</Button>
                                 </Link>
                                 <Link to={'/css'}>
-                                    <Button bg={'transparent'} _hover={{bg: ''}} width={'100%'}>Css Savollari</Button>
+                                    <Button color={'white'} bg={'transparent'} _hover={{bg: ''}} width={'100%'}>Css Savollari</Button>
                                 </Link>
                                 <Link to={'/bootstrap'}>
-                                    <Button bg={'transparent'} _hover={{bg: ''}} width={'100%'}>Bootstrap Savollari</Button>
+                                    <Button color={'white'} bg={'transparent'} _hover={{bg: ''}} width={'100%'}>Bootstrap Savollari</Button>
                                 </Link>
                                 <Link to={'/javascript'}>
-                                    <Button bg={'transparent'} _hover={{bg: ''}} width={'100%'}>JavaScript Savollari</Button>
+                                    <Button color={'white'} bg={'transparent'} _hover={{bg: ''}} width={'100%'}>JavaScript Savollari</Button>
                                 </Link>
                             </AccordionPanel>
                             </>
@@ -92,10 +92,10 @@ const Sidebar = ({show}) => {
                             </h2>
                             <AccordionPanel pb={4} display={'flex'} flexDirection='column' gap={4}>
                                 <Link to={'/word'}>
-                                    <Button bg={'transparent'} _hover={{bg: ''}} width={'100%'}>Word dasturi testlari</Button>
+                                    <Button bg={'transparent'} color={'whte'} _hover={{bg: ''}} width={'100%'}>Word dasturi testlari</Button>
                                 </Link>
                                 <Link to={'/exel'}>
-                                    <Button bg={'transparent'} _hover={{bg: ''}} width={'100%'}>Exel dasturi testlari</Button>
+                                    <Button bg={'transparent'} color={'whte'} _hover={{bg: ''}} width={'100%'}>Exel dasturi testlari</Button>
                                 </Link>
                             </AccordionPanel>
                             </>
