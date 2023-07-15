@@ -13,7 +13,6 @@ import Css from "./pages/css"
 import Exel from "./pages/exel"
 import Home from "./pages/home"
 import Html from "./pages/html"
-import Ielts from "./pages/ielts"
 import InglisGramatika from "./pages/inglisGramatika"
 import Javascript from "./pages/javascript"
 import Kimyo from "./pages/kimyo"
@@ -82,7 +81,6 @@ function App() {
             <Route path="/home" element={<Home show={show} />}></Route>
             <Route path="/inglisGramatika" element={<InglisGramatika show={show} />}></Route>
             <Route path="/preIelts" element={<PreIelts show={show} />}></Route>
-            <Route path="/ielts" element={<Ielts show={show} />}></Route>
             <Route path="/bialogiya" element={<Bialogiya show={show} />}></Route>
             <Route path="/kimyo" element={<Kimyo show={show} />}></Route>
             <Route path="/rus" element={<Rus show={show} />}></Route>
